@@ -1,0 +1,47 @@
+.maincard {
+  position: relative;
+  display: flex;
+  -webkit-box-pack: center;
+  justify-content: center;
+  width: 380px;
+  height: 519px;
+}
+
+.behindcard {
+  position: absolute;
+  width: 100%;
+  max-width: 380px;
+  height: 519px;
+  background: linear-gradient(rgb(47, 184, 255) 0%, rgb(158, 236, 217) 100%);
+  border-radius: 60px 60px 60px 0px;
+  transform: matrix(1, 0.14, 0, 0.99, 0, 0);
+  transform-origin: left bottom;
+  z-index: -1;
+}
+
+.maincard:hover {
+  .behindcard {
+    position: absolute;
+    width: 100%;
+    max-width: 380px;
+    height: 519px;
+    background: linear-gradient(rgb(37, 99, 191) 0%, rgb(172, 122, 225) 100%);
+    border-radius: 90px 90px 60px 0px;
+    transition: all 0.8s cubic-bezier(0.075, 0.82, 0.165, 1) 0s;
+    transform: skewX(-10deg) skewY(20deg) scaleX(0.8) translateY(-3px);
+  }
+}
+
+.frontcard {
+  min-width: 240px;
+  width: 100%;
+  background: rgba(255, 255, 255, 0.3);
+  box-shadow: rgba(24, 32, 79, 0.25) 0px 40px 80px,
+    rgba(255, 255, 255, 0.5) 0px 0px 0px 0.5px inset;
+  backdrop-filter: blur(40px);
+  padding: 50px 20px;
+  max-width: 380px;
+  height: 519px;
+  border-radius: 60px 60px 60px 0px;
+  z-index: 2;
+}
