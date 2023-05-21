@@ -5,6 +5,7 @@ import Header from "./components/main/Header/Header";
 import Projects from "./components/main/Projects/Projects";
 import Footer from "./components/main/Footer/Footer";
 import ProjectCard from "./components/global/ProjectCard/ProjectCard";
+
 export default function Home() {
   return (
     <main className={styles.main}>
