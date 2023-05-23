@@ -10,7 +10,7 @@ const Navbar = () => {
         <li>Projects</li>
         <li>Experience</li>
       </ul>
-      <Button />
+      <Button placeholder='Get in Touch' version='main' />
     </div>
   );
 };

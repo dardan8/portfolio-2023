@@ -1,6 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import styles from "./ProjectCard.module.scss";
+import Button from "../Button/Button";
 
 type ProjectCardProps = {
   project: string;
@@ -11,7 +12,7 @@ const ProjectCard = ({ project }: ProjectCardProps) => {
     <div className={styles.maincard}>
       <div className={styles.behindcard}></div>
       <div className={styles.frontcard}>
-        <div>
+        <div className={styles.cardtop}>
           <span className={styles.card_tags}>NextJS, ReactJS, SCSS</span>
           <h3 className={styles.card_title}>Pomodoro App</h3>
           <p className={styles.card_desc}>
@@ -19,6 +20,7 @@ const ProjectCard = ({ project }: ProjectCardProps) => {
             me
           </p>
         </div>
+        <Button placeholder='View Project' version='secondary' />
       </div>
     </div>
   );
