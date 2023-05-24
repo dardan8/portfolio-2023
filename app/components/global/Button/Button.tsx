@@ -12,7 +12,7 @@ const Button = ({ placeholder, version }: ButtonProps) => {
       className={`${version === "main" ? styles.button1 : styles.button2}`}
     >
       {placeholder} {""}
-      <BsFillArrowRightCircleFill className={styles.icon} />
+      {/* <BsFillArrowRightCircleFill className={styles.icon} /> */}
     </button>
   );
 };

@@ -9,6 +9,8 @@ const Projects = () => {
       <ProjectCard project='/images/projects/Blog_Image.png' />
       <ProjectCard project='/images/projects/pomodoro.png' />
       <ProjectCard project='/images/projects/pomodoro.png' />
+      <ProjectCard project='/images/projects/pomodoro.png' />
+      <ProjectCard project='/images/projects/pomodoro.png' />
     </div>
   );
 };

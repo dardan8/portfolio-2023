@@ -15,9 +15,11 @@ const Header = () => {
             Hi <span className={styles.hi_icon}>👋</span>
           </h1>
           <h3 className={styles.titlearea}>
-            I’m Dardan, <span className='highlight1'>Frontend Developer.</span>{" "}
-            Experienced in <span className='highlight2'>UI/UX Design.</span>{" "}
-            Helping build your digital products. Let's get in touch!
+            I’m Dardan, experienced{" "}
+            <span className='highlight1'>Frontend Developer </span> skilled in{" "}
+            <span className='highlight2'>UI/UX Design</span>, dedicated to
+            crafting exceptional digital products. Let's connect and bring your
+            vision to life!
           </h3>
         </div>
 

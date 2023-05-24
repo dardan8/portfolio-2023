@@ -23,6 +23,7 @@
   transform: matrix(1, 0.14, 0, 0.99, 0, 0);
   transform-origin: left bottom;
   z-index: -1;
+  transition: all 0.8s cubic-bezier(0.075, 0.82, 0.165, 1) 0s;
 }
 
 .maincard:hover {
@@ -76,11 +77,24 @@
 }
 
 .card_tags {
-  color: #fff;
-  border: 1px solid #f0f0f17d;
-  background-color: #b18ede34;
-  padding: 0.5rem;
-  border-radius: 0.4rem;
+  width: fit-content;
+  color: rgb(255, 255, 255);
+
+  background: linear-gradient(
+    rgba(255, 255, 255, 0.393) 0%,
+    rgba(217, 223, 255, 0.157) 100%
+  );
+
+  padding: 0.4rem 0.6rem;
+  border-radius: 0.5rem;
+
   font-size: 12px;
+  font-weight: 400;
   cursor: default;
+
+  border: 1px solid rgba(255, 255, 255, 0.274);
+  box-sizing: border-box;
+
+  // box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px,
+  //   rgba(23, 0, 102, 0.2) 0px 20px 40px;
 }
