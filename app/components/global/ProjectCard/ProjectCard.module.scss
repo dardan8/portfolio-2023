@@ -18,7 +18,9 @@
 
   // max-width: 380px;
   // height: 519px;
-  background: linear-gradient(rgba(0, 170, 255, 0.696) 0%, #b18edeb9);
+  background: linear-gradient(rgba(0, 170, 255, 0.82) 0%, #b18edeb9);
+  // background: linear-gradient(#ffc09d 0%, #b18edeb9);
+
   border-radius: 60px 60px 60px 0px;
   transform: matrix(1, 0.14, 0, 0.99, 0, 0);
   transform-origin: left bottom;
@@ -52,12 +54,13 @@
   background: rgba(255, 255, 255, 0.3);
   box-shadow: rgba(24, 32, 79, 0.25) 0px 40px 80px,
     rgba(255, 255, 255, 0.75) 0px 0px 0px 0.5px inset;
-  backdrop-filter: blur(40px);
+
   padding: 50px 20px;
   // max-width: 380px;
   // height: 519px;
   width: 20rem;
   height: 25rem;
+  backdrop-filter: blur(40px);
 
   border-radius: 60px 60px 60px 0px;
   z-index: 2;

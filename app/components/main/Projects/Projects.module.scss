@@ -1,15 +1,23 @@
 .projects {
-  width: 75%;
-  height: auto;
-  border: 1px solid rgba(119, 119, 119, 0.202);
+  display: flex;
+  align-items: center;
+  justify-content: center;
 
-  background: rgb(255, 255, 255);
+  background: rgb(98, 82, 204);
   background: linear-gradient(
-    0deg,
-    rgba(226, 239, 255, 0.287) 0%,
-    rgba(244, 235, 255, 0.517) 100%
+    180deg,
+    rgb(216, 210, 255) 0%,
+    rgba(167, 226, 255, 0.377) 40%,
+    rgb(255, 255, 255) 100%
   );
-  border-radius: 60px;
+  border-radius: 100px;
+  padding: 10rem 0rem;
+}
+.projectspace {
+  width: 80%;
+  height: auto;
+  border: 1px solid rgba(151, 151, 151, 0.209);
+
   color: #ffffff;
 
   display: flex;
@@ -21,5 +29,11 @@
   box-sizing: border-box;
 
   padding: 8rem 5rem;
+  border-radius: 20px;
+
   z-index: 0;
+  // background-image: url("/images/gradient.png");
+  // background-position: bottom;
+  // background-repeat: no-repeat;
+  background-color: rgba(255, 255, 255, 0.894);
 }
