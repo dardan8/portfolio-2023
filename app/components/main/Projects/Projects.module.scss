@@ -1,7 +1,9 @@
 .projects {
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
+  width: 100%;
 
   background: rgb(98, 82, 204);
   background: linear-gradient(
@@ -11,29 +13,46 @@
     rgb(255, 255, 255) 100%
   );
   border-radius: 100px;
-  padding: 10rem 0rem;
+  padding: 5rem 0rem 10rem 0rem;
+
+  .projects_title {
+    color: white;
+    padding: 2.5rem 0;
+  }
 }
+
 .projectspace {
   width: 80%;
   height: auto;
-  border: 1px solid rgba(151, 151, 151, 0.209);
+  box-sizing: border-box;
+  border-radius: 30px;
 
-  color: #ffffff;
+  z-index: 1;
+
+  background-color: rgba(255, 255, 255, 0.863);
+  background-image: url("/images/grid.svg");
+  background-repeat: repeat;
+}
+
+.projectspace_gradient {
+  width: 100%;
+  padding: 7rem 5rem;
 
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-start;
   flex-wrap: wrap;
 
   gap: 6rem;
-  box-sizing: border-box;
+  height: auto;
 
-  padding: 8rem 5rem;
-  border-radius: 20px;
+  z-index: 2;
 
-  z-index: 0;
-  // background-image: url("/images/gradient.png");
-  // background-position: bottom;
-  // background-repeat: no-repeat;
-  background-color: rgba(255, 255, 255, 0.863);
+  background: radial-gradient(
+    at top left,
+    rgba(255, 255, 255, 0),
+    rgba(255, 255, 255, 0.519) 80%
+  );
+  border-radius: 30px;
+  border: 1px solid #f1f1f1;
 }

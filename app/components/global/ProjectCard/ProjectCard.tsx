@@ -4,19 +4,19 @@ import styles from "./ProjectCard.module.scss";
 import Button from "../Button/Button";
 
 type ProjectCardProps = {
-  project: string;
-  tech: string;
-  title: string;
+  projectTitle: string;
+  tech: string | [];
   description: string;
   imageURL: string;
+  projectURL: string;
 };
 
 const ProjectCard = ({
-  project,
+  projectTitle,
   tech,
-  title,
   description,
   imageURL,
+  projectURL,
 }: ProjectCardProps) => {
   return (
     <div className={styles.maincard}>
@@ -24,16 +24,20 @@ const ProjectCard = ({
       <div className={styles.frontcard}>
         <div className={styles.cardtop}>
           <Image
-            src='/images/projects/pomodoro.png'
+            src={imageURL}
             alt='Image'
-            width={170}
-            height={50}
+            width={180}
+            height={100}
+            className={styles.card_image}
           />
           <span className={styles.card_tags}>{tech}</span>
-          <h3 className={styles.card_title}>{project}</h3>
+          <h3 className={styles.card_title}>{projectTitle}</h3>
           <p className={styles.card_desc}>{description}</p>
         </div>
-        <Button placeholder='View Project' version='secondary' />
+        <a href={projectURL} target='_blank' rel='nofollow'>
+          {" "}
+          <Button placeholder='View Project' version='secondary' />
+        </a>
       </div>
     </div>
   );
