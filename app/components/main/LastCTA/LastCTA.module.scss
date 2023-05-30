@@ -45,3 +45,26 @@
   color: #535557;
   text-align: center;
 }
+
+@media only screen and (max-width: 1200px) {
+  .cta_bg {
+    min-height: 29rem;
+  }
+
+  .cta_section {
+    width: 80%;
+
+    height: 50%;
+    padding: 3rem;
+  }
+
+  .cta_title {
+    font-size: 1.2rem;
+    font-weight: 500;
+  }
+
+  .cta_text {
+    font-size: 0.9rem;
+    font-weight: 400;
+  }
+}

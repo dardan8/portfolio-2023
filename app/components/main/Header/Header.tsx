@@ -22,7 +22,7 @@ const Header = () => {
             vision to life!
           </h3>
         </div>
-        <div className={styles.header_gradient}></div>
+        {/* <div className={styles.header_gradient}></div> */}
 
         <div className={styles.profile}>
           <div className={styles.bubble1}>

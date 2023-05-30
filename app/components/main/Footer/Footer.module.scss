@@ -33,3 +33,11 @@
     color: #fff;
   }
 }
+
+@media only screen and (max-width: 1200px) {
+  .footer_wrapper {
+    padding: 0 2rem;
+    height: 10vh;
+    background-color: #fff;
+  }
+}

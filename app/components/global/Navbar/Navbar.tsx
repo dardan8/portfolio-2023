@@ -18,7 +18,9 @@ const Navbar = () => {
           <a href='#experience'>Experience</a>
         </li>
       </ul>
-      <Button placeholder='Get in Touch' version='main' />
+      <a href='mailto:dardan.dara@gmail.com' target='_blank' rel='nofollow'>
+        <Button placeholder='Get in Touch' version='main' />{" "}
+      </a>
     </div>
   );
 };
