@@ -5,14 +5,15 @@
   justify-content: center;
   width: 100%;
 
-  background: rgb(98, 82, 204);
+  // background: rgb(98, 82, 204);
   background: linear-gradient(
     180deg,
     rgb(216, 210, 255) 0%,
     rgba(167, 226, 255, 0.377) 40%,
     rgb(255, 255, 255) 100%
   );
-  border-radius: 100px;
+  border-radius: 100px 100px 0 0;
+  border-bottom: 1px solid #dcdcdc;
   padding: 5rem 0rem 10rem 0rem;
 
   .projects_title {

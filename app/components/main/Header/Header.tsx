@@ -22,6 +22,7 @@ const Header = () => {
             vision to life!
           </h3>
         </div>
+        <div className={styles.header_gradient}></div>
 
         <div className={styles.profile}>
           <div className={styles.bubble1}>
@@ -42,7 +43,7 @@ const Header = () => {
         </div>
       </div>
 
-      <div className={styles.header__bottom}>
+      <div className={styles.header__bottom} id='tools'>
         <TechStack />
       </div>
     </div>

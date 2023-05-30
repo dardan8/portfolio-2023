@@ -1,7 +1,9 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap");
 * {
   box-sizing: border-box;
   padding: 0;
   margin: 0;
+  font-family: "Manrope", sans-serif;
 }
 
 html,
@@ -27,12 +29,12 @@ ul li {
 }
 
 .highlight1 {
-  background-color: #d7c6f897;
+  background-color: rgb(216, 210, 255);
   padding: 0 3px;
 }
 
 .highlight2 {
-  background-color: #5663d457;
+  background-color: rgba(167, 226, 255, 0.713);
   padding: 0 3px;
 }
 
@@ -55,3 +57,6 @@ h3 {
   line-height: 1.5;
   color: #333;
 }
+
+$main-color: rgb(216, 210, 255);
+$secondary-color: rgba(167, 226, 255, 0.377);

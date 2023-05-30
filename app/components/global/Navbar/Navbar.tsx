@@ -6,9 +6,17 @@ const Navbar = () => {
   return (
     <div className={styles.navigation}>
       <ul>
-        <li>Tools</li>
-        <li>Projects</li>
-        <li>Experience</li>
+        <li>
+          <a href='#tools'>Tools</a>
+        </li>
+        <li>
+          {" "}
+          <a href='#projects'>Projects</a>
+        </li>
+        <li>
+          {" "}
+          <a href='#experience'>Experience</a>
+        </li>
       </ul>
       <Button placeholder='Get in Touch' version='main' />
     </div>

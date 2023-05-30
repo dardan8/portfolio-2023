@@ -1,0 +1,35 @@
+.footer_wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  padding: 0 10rem;
+  height: 10vh;
+  background-color: #fff;
+}
+
+.text {
+  color: #535557;
+  font-size: 1.1rem;
+  font-weight: 400;
+}
+
+.social {
+  display: inline-flex;
+  gap: 1rem;
+}
+
+.social_icon {
+  font-size: 35px;
+  color: #b18ede;
+  border: 1px solid #b18ede2f;
+  border-radius: 50%;
+  padding: 7px;
+  background-color: #b18ede35;
+
+  &:hover {
+    cursor: pointer;
+    background-color: #b18ede;
+    color: #fff;
+  }
+}

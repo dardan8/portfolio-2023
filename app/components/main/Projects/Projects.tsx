@@ -5,7 +5,7 @@ import { projects } from "../../../data/data";
 
 const Projects = () => {
   return (
-    <div className={styles.projects}>
+    <div className={styles.projects} id='projects'>
       <h3 className={styles.projects_title}>Projects</h3>
       <div className={styles.projectspace}>
         <div className={styles.projectspace_gradient}>

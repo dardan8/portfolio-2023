@@ -10,6 +10,11 @@ export const tech_stack = [
     alt: "JavaScript",
   },
   {
+    id: "a1",
+    image_url: "/images/logos/ts.png",
+    alt: "TypeScript",
+  },
+  {
     id: "a3",
     image_url: "/images/logos/css.svg",
     alt: "CSS",
