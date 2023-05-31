@@ -26,7 +26,7 @@ const TechStack = () => {
               slidesPerView: 6,
             },
 
-            400: {
+            600: {
               slidesPerView: 3,
             },
           }}

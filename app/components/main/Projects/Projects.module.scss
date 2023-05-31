@@ -37,7 +37,7 @@
 
 .projectspace_gradient {
   width: 100%;
-  padding: 7rem 5rem;
+  padding: 7rem;
 
   display: flex;
   align-items: center;
@@ -66,5 +66,11 @@
 
   .projectspace {
     width: 90%;
+  }
+
+  .projectspace_gradient {
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 5rem 0.2rem;
   }
 }

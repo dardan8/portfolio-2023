@@ -16,7 +16,7 @@ const Header = () => {
           </h1>
           <h3 className={styles.titlearea}>
             I’m Dardan, experienced{" "}
-            <span className='highlight1'>Frontend Developer </span> skilled in{" "}
+            <span className='highlight1'>Frontend Developer</span> skilled in{" "}
             <span className='highlight2'>UI/UX Design</span>, dedicated to
             crafting exceptional digital products. Let's connect and bring your
             vision to life!
